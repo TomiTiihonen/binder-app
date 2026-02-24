@@ -1,0 +1,14 @@
+title: "Binder - Journal & Notes"
+description: "Your all-in-one personal journal for iPhone. Capture voice memos, notes, lists, photos, locations, events and more — all in one place."
+url: "https://binderapp.info"
+baseurl: ""
+
+app_store_url: "https://apps.apple.com/app/id6759610184"
+support_email: "support@binderapp.info"
+github_username: TomiTiihonen
+
+markdown: kramdown
+permalink: pretty
+
+plugins:
+  - jekyll-feed

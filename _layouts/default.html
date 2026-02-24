@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="{{ '/' | relative_url }}" class="nav-brand">Binder</a>
+      <div class="nav-links">
+        <a href="{{ '/support' | relative_url }}">Support</a>
+        <a href="{{ '/privacy' | relative_url }}">Privacy</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      &copy; {{ site.time | date: '%Y' }} Tomi Tiihonen
+      &nbsp;&middot;&nbsp;
+      <a href="{{ '/privacy' | relative_url }}">Privacy Policy</a>
+      &nbsp;&middot;&nbsp;
+      <a href="{{ '/support' | relative_url }}">Support</a>
+    </p>
+  </footer>
+</body>
+</html>
