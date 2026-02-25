@@ -55,7 +55,7 @@ bundle update github-pages
 The app icon at `assets/images/app-icon.png` is copied from the Xcode project:
 
 ```
-../test-claude/Binder/Assets.xcassets/AppIcon.appiconset/Binder-Logo-19.png
+../Binder/Assets.xcassets/AppIcon.appiconset/Binder-Logo-19.png
 ```
 
 To update it, copy the new file over `assets/images/app-icon.png` and commit.
