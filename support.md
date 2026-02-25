@@ -22,7 +22,7 @@ Your journal entries are stored on your device and synced to your personal iClou
 As long as you're signed into the same iCloud account, your entries will restore automatically after reinstalling the app.
 
 **Can I export my journal?**
-Export options are on the roadmap. Check the [issue tracker](https://github.com/TomiTiihonen/binder-app/issues) for the latest status.
+Not yet, but it's something we're thinking about for the future.
 
 **How do I delete an entry?**
 Swipe left on any entry in the journal list to reveal the delete option.

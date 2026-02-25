@@ -295,6 +295,10 @@ a:hover {
   color: var(--accent);
 }
 
+.page-content a.support-action {
+  color: #fff;
+}
+
 .page-content strong {
   color: var(--text);
 }
