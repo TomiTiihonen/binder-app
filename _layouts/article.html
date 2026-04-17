@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<article class="article">
+  <header class="article-header">
+    {% if page.section %}<p class="article-eyebrow"><a href="{{ '/' | append: page.section | append: '/' | relative_url }}">{{ page.section | capitalize }}</a></p>{% endif %}
+    <h1 class="article-title">{{ page.title }}</h1>
+    {% if page.summary %}<p class="article-summary">{{ page.summary }}</p>{% endif %}
+    {% if page.date %}<p class="article-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></p>{% elsif page.updated %}<p class="article-meta">Updated <time datetime="{{ page.updated | date_to_xmlschema }}">{{ page.updated | date: "%-d %B %Y" }}</time></p>{% endif %}
+  </header>
+
+  <div class="article-body">
+    {{ content }}
+  </div>
+</article>

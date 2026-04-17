@@ -12,3 +12,34 @@ permalink: pretty
 
 plugins:
   - jekyll-feed
+
+collections:
+  help:
+    output: true
+    permalink: /help/:path/
+  news:
+    output: true
+    permalink: /news/:path/
+  blog:
+    output: true
+    permalink: /blog/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "help"
+    values:
+      layout: "article"
+      section: "help"
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      layout: "article"
+      section: "news"
+  - scope:
+      path: ""
+      type: "blog"
+    values:
+      layout: "article"
+      section: "blog"

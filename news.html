@@ -1,0 +1,23 @@
+---
+layout: default
+title: "News"
+description: "Updates, releases, and announcements from the Binder team."
+permalink: /news/
+---
+<div class="page-container">
+  <h1 class="page-title">News</h1>
+  <p class="page-lead">What's new in Binder.</p>
+
+  <ul class="article-list">
+    {% assign sorted_news = site.news | sort: "date" | reverse %}
+    {% for article in sorted_news %}
+      <li class="article-list-item">
+        <a href="{{ article.url | relative_url }}">
+          <h2>{{ article.title }}</h2>
+          {% if article.date %}<p class="article-list-meta"><time datetime="{{ article.date | date_to_xmlschema }}">{{ article.date | date: "%-d %B %Y" }}</time></p>{% endif %}
+          {% if article.summary %}<p>{{ article.summary }}</p>{% endif %}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

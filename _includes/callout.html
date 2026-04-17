@@ -1,0 +1,4 @@
+<aside class="callout callout-{{ include.type | default: 'tip' }}">
+  {% if include.title %}<strong class="callout-title">{{ include.title }}</strong>{% endif %}
+  <div class="callout-body">{{ include.body | markdownify }}</div>
+</aside>

@@ -1,0 +1,22 @@
+---
+layout: default
+title: "Help"
+description: "Learn how to use Binder — guides for every entry type and feature."
+permalink: /help/
+---
+<div class="page-container">
+  <h1 class="page-title">Help</h1>
+  <p class="page-lead">Guides and reference for getting the most out of Binder.</p>
+
+  <ul class="article-list">
+    {% assign sorted_help = site.help | sort: "title" %}
+    {% for article in sorted_help %}
+      <li class="article-list-item">
+        <a href="{{ article.url | relative_url }}">
+          <h2>{{ article.title }}</h2>
+          {% if article.summary %}<p>{{ article.summary }}</p>{% endif %}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

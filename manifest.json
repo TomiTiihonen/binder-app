@@ -1,0 +1,21 @@
+---
+permalink: /manifest.json
+---
+{
+  "version": 1,
+  "generated": "{{ site.time | date_to_xmlschema }}",
+  "articles": [
+    {% assign sorted = site.help | sort: "title" %}
+    {% for a in sorted %}
+    {
+      "title": {{ a.title | jsonify }},
+      "summary": {{ a.summary | default: "" | jsonify }},
+      "slug": {{ a.slug | jsonify }},
+      "path": {{ a.url | jsonify }},
+      "category": {{ a.category | default: "" | jsonify }},
+      "icon": {{ a.icon | default: "" | jsonify }},
+      "updated": {{ a.updated | default: "" | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}

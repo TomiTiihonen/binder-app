@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "tips": {
+    "general": [
+      "Pin your favourite entries for quick access from the sidebar.",
+      "Use Collections to group related entries — trips, projects, books.",
+      "Add a reminder to any entry to revisit it later.",
+      "The command palette (Cmd+K) jumps you anywhere instantly."
+    ],
+    "note": [
+      "Use headings to organise long notes — they show up in the outline.",
+      "Drop images straight into a note from your Photos library.",
+      "Try block quotes for capturing things people said."
+    ],
+    "voiceMemo": [
+      "Record a quick thought on the go — Binder transcribes it for you.",
+      "Voice memos work great for ideas you'd lose otherwise."
+    ],
+    "list": [
+      "Lists are perfect for packing, groceries, and trip planning.",
+      "Tap a finished item to cross it off — it stays for the record."
+    ],
+    "link": [
+      "Save articles you want to read later with a rich preview.",
+      "Tag links by category to find them again."
+    ],
+    "event": [
+      "Add a location and reminder to events you don't want to miss.",
+      "Attach photos after the event to build a memory."
+    ],
+    "recommendation": [
+      "Rate places, films and finds so you can recommend them later.",
+      "Add a cover photo to make recommendations easy to spot."
+    ],
+    "locationPin": [
+      "Drop a pin anywhere — bookmarks for the real world.",
+      "Add photos to a pin to remember why you saved it."
+    ],
+    "dailyMood": [
+      "A daily check-in builds a picture of how you're really doing.",
+      "Look back over a week to spot what affects your mood."
+    ],
+    "photoGallery": [
+      "Build a gallery for any moment — a trip, a meal, a project.",
+      "Drag photos to reorder them on macOS."
+    ],
+    "file": [
+      "Attach any file — receipts, tickets, PDFs.",
+      "Files are searchable by name and live alongside your other entries."
+    ],
+    "collection": [
+      "Group related entries into a single collection.",
+      "Collections work like folders — but smarter, with previews."
+    ]
+  },
+  "quotes": [
+    { "text": "The life of every man is a diary in which he means to write one story, and writes another.", "author": "J.M. Barrie" },
+    { "text": "I never travel without my diary. One should always have something sensational to read in the train.", "author": "Oscar Wilde" },
+    { "text": "Journal writing is a voyage to the interior.", "author": "Christina Baldwin" },
+    { "text": "Fill your paper with the breathings of your heart.", "author": "William Wordsworth" },
+    { "text": "What a comfort is this journal. I tell myself to myself and throw the burden on my book and feel relieved.", "author": "Anne Lister" },
+    { "text": "We do not learn from experience. We learn from reflecting on experience.", "author": "John Dewey" }
+  ]
+}

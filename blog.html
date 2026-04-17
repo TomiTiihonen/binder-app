@@ -1,0 +1,23 @@
+---
+layout: default
+title: "Blog"
+description: "Longer-form writing about Binder, journaling, and the design behind the app."
+permalink: /blog/
+---
+<div class="page-container">
+  <h1 class="page-title">Blog</h1>
+  <p class="page-lead">Stories, reviews, and thoughts on journaling.</p>
+
+  <ul class="article-list">
+    {% assign sorted_blog = site.blog | sort: "date" | reverse %}
+    {% for article in sorted_blog %}
+      <li class="article-list-item">
+        <a href="{{ article.url | relative_url }}">
+          <h2>{{ article.title }}</h2>
+          {% if article.date %}<p class="article-list-meta"><time datetime="{{ article.date | date_to_xmlschema }}">{{ article.date | date: "%-d %B %Y" }}</time></p>{% endif %}
+          {% if article.summary %}<p>{{ article.summary }}</p>{% endif %}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
