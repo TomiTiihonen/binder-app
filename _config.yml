@@ -7,11 +7,34 @@ app_store_url: "https://apps.apple.com/app/id6759610184"
 support_email: "support@binderapp.info"
 github_username: TomiTiihonen
 
+author:
+  name: "Tomi Tiihonen"
+
+logo: /assets/images/app-icon.png
+
+# Default social share image — used by jekyll-seo-tag for og:image / twitter:image
+# when a page doesn't declare its own. Target size: 1200×630.
+image: /assets/images/og-default.png
+
+# Set `twitter.username: your_handle` once you have one — jekyll-seo-tag will then
+# emit proper twitter:site / twitter:creator tags. Leaving it unset is cleaner
+# than emitting `@` as a handle.
+# twitter:
+#   username: binderapp
+#   card: summary_large_image
+
+social:
+  name: Binder
+  links:
+    - https://binderapp.info
+
 markdown: kramdown
 permalink: pretty
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 collections:
   help:

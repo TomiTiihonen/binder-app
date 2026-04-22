@@ -15,7 +15,7 @@ permalink: /blog/
         <a href="{{ article.url | relative_url }}">
           <h2>{{ article.title }}</h2>
           {% if article.date %}<p class="article-list-meta"><time datetime="{{ article.date | date_to_xmlschema }}">{{ article.date | date: "%-d %B %Y" }}</time></p>{% endif %}
-          {% if article.summary %}<p>{{ article.summary }}</p>{% endif %}
+          {% if article.description %}<p>{{ article.description }}</p>{% endif %}
         </a>
       </li>
     {% endfor %}

@@ -1,6 +1,6 @@
 ---
 title: "Welcome to Binder"
-summary: "A brand new website and a fresh take on your personal journal."
+description: "A brand new website and a fresh take on your personal journal."
 date: 2026-04-17
 ---
 

@@ -124,8 +124,21 @@ a:hover {
 .hero {
   text-align: center;
   padding: 80px 24px 60px;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.hero-inner {
   max-width: 680px;
   margin: 0 auto;
+}
+
+.hero-screenshot {
+  display: block;
+  width: 100%;
+  max-width: 960px;
+  height: auto;
+  margin: 40px auto 0;
 }
 
 .hero-icon {

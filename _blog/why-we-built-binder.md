@@ -1,6 +1,6 @@
 ---
 title: "Why we built Binder"
-summary: "The story behind a personal journal that brings everything into one place."
+description: "The story behind a personal journal that brings everything into one place."
 date: 2026-04-17
 ---
 

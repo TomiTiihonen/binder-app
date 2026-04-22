@@ -9,7 +9,7 @@ permalink: /manifest.json
     {% for a in sorted %}
     {
       "title": {{ a.title | jsonify }},
-      "summary": {{ a.summary | default: "" | jsonify }},
+      "summary": {{ a.description | default: "" | jsonify }},
       "slug": {{ a.slug | jsonify }},
       "path": {{ a.url | jsonify }},
       "category": {{ a.category | default: "" | jsonify }},
