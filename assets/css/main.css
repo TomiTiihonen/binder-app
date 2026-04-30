@@ -133,14 +133,6 @@ a:hover {
   margin: 0 auto;
 }
 
-.hero-screenshot {
-  display: block;
-  width: 100%;
-  max-width: 960px;
-  height: auto;
-  margin: 40px auto 0;
-}
-
 .hero-icon {
   width: 120px;
   height: 120px;
